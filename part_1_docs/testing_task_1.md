@@ -18,6 +18,7 @@ class CardGame:
 
 
   def check_for_ace(self, card):
+    # requires double equals for 'equal to'
     if card.value = 1:
       return True
       # needs a colon after else
