@@ -41,5 +41,5 @@ def cards_total(self, cards):
   for card in cards:
     total += card.value
     return "You have a total of" + total
-  # the return here should be a print in brackets
+  # the return here should print an f string: print(f"You have a total of {total}")
 ```
