@@ -28,18 +28,18 @@ class CardGame:
 # spelling error. dif should be def.
 # comma needed after 'card1'
   dif highest_card(self, card1 card2):
-  if card1.value > card2.value:
-    # 'card' isn't defined. Should be card1
-    return card
-  else:
-    return card2
+    if card1.value > card2.value:
+      # 'card' isn't defined. Should be card1
+      return card
+    else:
+      return card2
   
 
-# total needs to be a defined variable e.g. total = 0
-def cards_total(self, cards):
-  total
-  for card in cards:
-    total += card.value
+  # total needs to be a defined variable e.g. total = 0
+  def cards_total(self, cards):
+    total
+    for card in cards:
+      total += card.value
     return "You have a total of" + total
   # the return here should return an f string: return(f"You have a total of {total}")
 ```
